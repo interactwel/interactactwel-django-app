@@ -63,7 +63,7 @@ export default new Router({
     routes: [
         {
             path: '/',
-            //redirect: '/index',
+            redirect: '/dashboard',
             name: 'Home',
             component: Home,
         },
